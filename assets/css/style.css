@@ -33,7 +33,7 @@
 .gov-header ul li:first-child {
     padding-left: 0;
 }
-.gov-logo.gov-logo-mobile, .social-networks-bottom {
+.gov-logo.gov-logo-mobile{
     display: none;
 }
 
