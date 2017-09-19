@@ -15,9 +15,9 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#082c42', endColorstr='#0e3d5a', GradientType=0);
 }
 
-.gov-header header, .gov-header header nav {
+/*.gov-header header, .gov-header header nav {
     height: 100%;
-}
+}*/
 
 .gov-header ul {
     font-weight: 600;
