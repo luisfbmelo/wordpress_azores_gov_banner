@@ -1,4 +1,5 @@
 .gov-header {
+	position:relative;
     width: 100%;
     min-height: 36px;
     background: #000;
