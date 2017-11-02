@@ -7,24 +7,24 @@
 * Author URI: http://luisfbmelo.com/
 **/
 
-define( 'AZORESGOVBANNER__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
-define( 'AZORESGOVBANNER__PLUGIN_URL', plugin_dir_url( __FILE__ ) );
+define( 'AZGB__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
+define( 'AZGB__PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
 add_action('init', 'init_gov_banner');
 
 //	Init header action
-function init_gov_banner(){
-	add_action('wp_head', 'add_gov_banner');
-	add_action('wp_enqueue_scripts', 'assets');
+function AZGB_init(){
+	add_action('wp_head', 'AZGB_add_banner');
+	add_action('wp_enqueue_scripts', 'AZGB_assets');
 }
 
 //	Add assets
-function assets(){
+function AZGB_assets(){
 	wp_enqueue_style('azoresgov/css', plugin_dir_url(__FILE__) . 'assets/css/style.css', false, null);
 }
 
 
 //	Add view with HTML
-function add_gov_banner(){
-	include(AZORESGOVBANNER__PLUGIN_DIR . 'views/banner.php');
+function AZGB_add_banner(){
+	include(AZGB__PLUGIN_DIR . 'views/banner.php');
 }

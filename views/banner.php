@@ -4,7 +4,7 @@
             <ul class="horizontal clearfix">
                 <li class="gov-logo">
                     <a href="http://www.azores.gov.pt/" target="_blank">
-                    	<img src="<?= AZORESGOVBANNER__PLUGIN_URL ?>assets/img/gov_acores_banner.png" alt="Governo dos Açores"/>
+                    	<img src="<?= AZGB__PLUGIN_URL ?>assets/img/gov_acores_banner.png" alt="Governo dos Açores"/>
                     </a>
                 </li>
                 <li>
