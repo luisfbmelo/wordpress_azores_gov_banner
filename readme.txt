@@ -4,6 +4,7 @@ Tags: azores,government,banner
 Requires at least: 4.8.0
 Tested up to: 4.8.2
 Requires PHP: 5.6
+Stable tag: 1.0
 
 A Azores Government Banner with links
 
