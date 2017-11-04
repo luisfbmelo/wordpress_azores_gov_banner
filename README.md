@@ -11,7 +11,7 @@ A Azores Government Banner with links
 ## Description
 This is a banner plugin to show links for the Azorean Government details and important pages.
 
-Plugin website: https://wordpress.org/plugins/azores-gov-banner/#description
+Plugin website: https://wordpress.org/plugins/azores-gov-banner
 
 ## Installation
 
