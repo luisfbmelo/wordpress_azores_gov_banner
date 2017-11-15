@@ -10,7 +10,7 @@
 define( 'AZGB__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'AZGB__PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
-add_action('init', 'init_gov_banner');
+add_action('init', 'AZGB_init');
 
 //	Init header action
 function AZGB_init(){
